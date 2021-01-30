@@ -1,2 +1,1 @@
--Created and configure a StackNavigator with React Navigato
--Used the navigation prop passed from the StackNavigator to its screen components for its navigate() and getParam() functions. 
+ Installed the package for react-navigation-drawer and used it to create a DrawerNavigator called MainNavigator. We used the MainNavigator as the new top-level navigator passed to the createAppContainer function. We also created a new Home component, and set it up with a StackNavigator called HomeNavigator. We configured the MainNavigator to load the HomeNavigator as the app's initial screen, and to have both the Home and Directory screens available in the side drawer from any screen in the app. 
