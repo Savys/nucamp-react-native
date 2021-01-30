@@ -1,4 +1,2 @@
--Used an Android Virtual Device Manager / emulator 
-from Android Studio, 
--Expo CLI 
--React Native Elements library. 
+-Created and configure a StackNavigator with React Navigato
+-Used the navigation prop passed from the StackNavigator to its screen components for its navigate() and getParam() functions. 
