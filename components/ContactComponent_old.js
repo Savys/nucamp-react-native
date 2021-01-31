@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { ScrollView, Text } from 'react-native';
+import {ScrollView,Text} from 'react-native';
 import { Card } from 'react-native-elements';
-export default class Contact extends Component { 
+export default class Contact  extends Component{
     static navigationOptions = {
-        title: 'Contact us'
+        title:'Contact Us'
     }
-    render() {
-        return (
-            <ScrollView>           
-                    <Card
+    render(){
+        return(
+            <ScrollView>
+                 <Card
                     title='Contact Information'
                     wrapperStyle={{margin: 20}}
                     wrapperStyle={{marginBottom: 10}}>
@@ -17,7 +17,7 @@ export default class Contact extends Component {
                         <Text>U.S.A.</Text>
                         <Text>Phone: 1-206-555-1234</Text>
                         <Text>Email: campsites@nucamp.co</Text>
-                    </Card>               
+                    </Card>
             </ScrollView>
         )
     }
